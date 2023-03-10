@@ -20,3 +20,9 @@ exercises.c:16:5: error: unused variable ‘a2’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 f0f6eea
+Fri 10 Mar 2023 09:32:17 PM UTC: 
+ exercises.c | 5 +++++
+ 1 file changed, 5 insertions(+)
+ tests:  1|6
+total_score: 10/70
+e0c10a1
