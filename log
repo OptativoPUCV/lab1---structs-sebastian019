@@ -120,3 +120,21 @@ exercises.c:121:5: error: ‘Vector’ has no member named ‘y’
       |     ^~
 Compilation failed
 8b3240d
+Sat 11 Mar 2023 03:43:38 PM UTC: 
+ exercises.c | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:84:11: error: unused variable ‘local’ [-Werror=unused-variable]
+   84 |   Vector *local = (Vector*) malloc(sizeof(Vector));
+      |           ^~~~~
+exercises.c: In function ‘sumaV2’:
+exercises.c:124:6: error: assignment to ‘Vector *’ from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+  124 |   c  = a1 + b1;
+      |      ^
+exercises.c:125:6: error: assignment to ‘Vector *’ from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+  125 |   c  = a2 + b2;
+      |      ^
+cc1: all warnings being treated as errors
+Compilation failed
+3d366db
