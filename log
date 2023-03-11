@@ -332,3 +332,14 @@ Sat 11 Mar 2023 04:27:11 PM UTC:
  tests:  5|2
 total_score: 50/70
 86d9906
+Sat 11 Mar 2023 04:27:38 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:118:23: error: ‘capacidad’ undeclared (first use in this function)
+  118 |   for(int i = 0 ; i < capacidad ; i++){
+      |                       ^~~~~~~~~
+exercises.c:118:23: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+25b8068
