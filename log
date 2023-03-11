@@ -273,3 +273,17 @@ Sat 11 Mar 2023 04:11:46 PM UTC:
  tests:  4|3
 total_score: 40/70
 5be3e1b
+Sat 11 Mar 2023 04:16:05 PM UTC: 
+ exercises.c | 3 +++
+ 1 file changed, 3 insertions(+)
+In file included from test.c:5:
+exercises.c: In function ‘obtenerValor’:
+exercises.c:111:5: error: ‘Vector’ has no member named ‘local’
+  111 |   v -> local[i];
+      |     ^~
+exercises.c:109:7: error: unused variable ‘local’ [-Werror=unused-variable]
+  109 |   int local;
+      |       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+f192841
