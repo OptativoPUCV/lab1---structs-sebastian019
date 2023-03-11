@@ -215,3 +215,26 @@ Sat 11 Mar 2023 03:53:16 PM UTC:
  tests:  3|4
 total_score: 30/70
 ff38fa9
+Sat 11 Mar 2023 04:07:17 PM UTC: 
+ exercises.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+In file included from test.c:5:
+exercises.c: In function ‘crearPersona’:
+exercises.c:65:12: error: ‘p’ is a pointer; did you mean to use ‘->’?
+   65 |   strcpy (p.nombre,nombre);
+      |            ^
+      |            ->
+exercises.c:66:12: error: ‘p’ is a pointer; did you mean to use ‘->’?
+   66 |   strcpy (p.rut,rut);
+      |            ^
+      |            ->
+exercises.c:68:4: error: ‘p’ is a pointer; did you mean to use ‘->’?
+   68 |   p.edad = edad;
+      |    ^
+      |    ->
+exercises.c: In function ‘asignarValor’:
+exercises.c:100:10: error: incompatible types when assigning to type ‘Vector’ from type ‘int’
+  100 |   v[i] = valor;
+      |          ^~~~~
+Compilation failed
+9c845d0
