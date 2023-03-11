@@ -56,3 +56,16 @@ exercises.c:112:17: error: invalid operands to binary + (have ‘Vector’ and �
       |             Vector Vector
 Compilation failed
 e828f11
+Sat 11 Mar 2023 03:23:11 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:112:13: error: invalid operands to binary + (have ‘Vector’ and ‘Vector’)
+  112 |     *c = *a + *b;
+      |          ~~ ^ ~~
+      |          |    |
+      |          |    Vector
+      |          Vector
+Compilation failed
+d3b7cd1
