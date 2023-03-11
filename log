@@ -287,3 +287,9 @@ exercises.c:109:7: error: unused variable ‘local’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 f192841
+Sat 11 Mar 2023 04:18:59 PM UTC: 
+ exercises.c | 5 +----
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+ tests:  4|3
+total_score: 40/70
+6590684
