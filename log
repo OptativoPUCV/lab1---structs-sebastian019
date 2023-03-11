@@ -193,3 +193,9 @@ exercises.c:85:10: error: unused variable ‘datos’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 20b590a
+Sat 11 Mar 2023 03:48:05 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|4
+total_score: 30/70
+fe37eb4
