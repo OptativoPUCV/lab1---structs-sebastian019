@@ -109,7 +109,7 @@ actualiza el vector `c` con el resultado de la suma.
 */
 void sumaV(Vector * a, Vector * b, Vector * c) {
   for(int i = 0 ; i < 2 ; i++){
-    *c = *a + *b;
+    c[i] = a[i] + b[i];
   }
 }
 
