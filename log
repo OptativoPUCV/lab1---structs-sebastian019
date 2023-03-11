@@ -101,3 +101,9 @@ exercises.c:120:17: error: expected ‘;’ before ‘}’ token
 cc1: all warnings being treated as errors
 Compilation failed
 c11bd00
+Sat 11 Mar 2023 03:30:25 PM UTC: 
+ exercises.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+ tests:  2|5
+total_score: 20/70
+d8a2b75
