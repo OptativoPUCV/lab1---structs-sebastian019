@@ -81,3 +81,23 @@ exercises.c:112:17: error: invalid operands to binary + (have ‘Vector’ and �
       |             Vector Vector
 Compilation failed
 23c2fe4
+Sat 11 Mar 2023 03:30:07 PM UTC: 
+ exercises.c | 6 ++----
+ 1 file changed, 2 insertions(+), 4 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV2’:
+exercises.c:120:3: error: implicit declaration of function ‘fro’ [-Werror=implicit-function-declaration]
+  120 |   fro(int i = 0)
+      |   ^~~
+exercises.c:120:7: error: expected expression before ‘int’
+  120 |   fro(int i = 0)
+      |       ^~~
+exercises.c:120:17: error: expected ‘;’ before ‘}’ token
+  120 |   fro(int i = 0)
+      |                 ^
+      |                 ;
+  121 | }
+      | ~                
+cc1: all warnings being treated as errors
+Compilation failed
+c11bd00
