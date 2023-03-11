@@ -343,3 +343,9 @@ exercises.c:118:23: error: ‘capacidad’ undeclared (first use in this functio
 exercises.c:118:23: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 25b8068
+Sat 11 Mar 2023 04:27:52 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  5|2
+total_score: 50/70
+b7a3126
