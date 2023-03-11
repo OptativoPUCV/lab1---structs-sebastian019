@@ -162,3 +162,20 @@ exercises.c:125:6: error: assignment to ‘Vector *’ from ‘int’ makes poin
 cc1: all warnings being treated as errors
 Compilation failed
 ef7fcd9
+Sat 11 Mar 2023 03:45:26 PM UTC: 
+ exercises.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:85:18: error: invalid initializer
+   85 |   Vector datos = (int*) calloc(n,sizeof(int));
+      |                  ^
+exercises.c:85:10: error: unused variable ‘datos’ [-Werror=unused-variable]
+   85 |   Vector datos = (int*) calloc(n,sizeof(int));
+      |          ^~~~~
+exercises.c:84:11: error: unused variable ‘local’ [-Werror=unused-variable]
+   84 |   Vector *local = (Vector*) malloc(sizeof(Vector));
+      |           ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+0d04c03
