@@ -355,3 +355,20 @@ Tue 14 Mar 2023 09:13:07 PM UTC:
  tests:  5|2
 total_score: 50/70
 6fc07b9
+Tue 14 Mar 2023 09:17:51 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘asignarValor’:
+exercises.c:100:15: error: statement with no effect [-Werror=unused-value]
+  100 |     v -> datos[i]
+      |     ~~~~~~~~~~^~~
+exercises.c:100:18: error: expected ‘;’ before ‘}’ token
+  100 |     v -> datos[i]
+      |                  ^
+      |                  ;
+  101 | }
+      | ~                 
+cc1: all warnings being treated as errors
+Compilation failed
+e445df2
