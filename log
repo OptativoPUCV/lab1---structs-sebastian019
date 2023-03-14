@@ -372,3 +372,14 @@ exercises.c:100:18: error: expected ‘;’ before ‘}’ token
 cc1: all warnings being treated as errors
 Compilation failed
 e445df2
+Tue 14 Mar 2023 09:17:57 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘asignarValor’:
+exercises.c:100:15: error: statement with no effect [-Werror=unused-value]
+  100 |     v -> datos[i];
+      |     ~~~~~~~~~~^~~
+cc1: all warnings being treated as errors
+Compilation failed
+f18bcd7
